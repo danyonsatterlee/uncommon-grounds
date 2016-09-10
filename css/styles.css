@@ -1,4 +1,4 @@
-
+@import 'https://fonts.googleapis.com/css?family=Amatic+SC:400,700';
 #main {
   background-image: url("../img/coffee-home.jpeg");
   position: relative;
@@ -50,4 +50,21 @@
  {
     max-height: 100%;
     max-width: 100%;
+}
+.social
+{
+  color:black;
+}
+.social a:hover{
+    color:#FFFFFF;
+}
+
+.social a:hover { color:white;}
+
+/*  Font */
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Amatic SC', cursive;
+  font-weight: 700;
+
 }
