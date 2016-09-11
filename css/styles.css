@@ -118,12 +118,18 @@ td, th {
 
 .menu-table {
     width: 100%;
+    padding:8px;
+    margin: 10px;
 }
 
 .menu-table td, th {
   text-align: left;
   padding:8px;
 }
+.menu-table th{
+font-family: 'Amatic SC', cursive;
+font-size: 40px}
+
 
 .menu-table tr:nth-child(even) {
     background-image: url("../img/extras/table-bk.png");
