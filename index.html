@@ -15,13 +15,15 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
   <!-- jQuery HAS TO GO BEFORE JAVA SCRIPT-->
   <script src="lib/jquery.min.js"></script>
+  <script src="js/jquery.slides.min.js"></script>
+    <script src="js/jquery.slides.js"></script>
   <!-- Bootstrap Java Script-->
   <script src="lib/bootstrap.min.js"></script>
+  <script src="js/scripts.js"></script>
 
   <!-- favicon-->
   <link rel="icon" href="img/coffee.ico">
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAm33E7tU-R_qRyhlNFlq2M4JOiuafAX4U"
-    async defer></script>
+
 
 
 </head>
@@ -63,10 +65,10 @@
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
   </nav>
-  <div id="main" class="jumbotron vertical-center jumbo-margin">
+  <div id="main" class="jumbotron vertical-center">
     <div class="container">
 
-      <img class=" text-center img-responsive center-block animated fadeInUp image-fit text-white" src="img/ug-logo-chalk.png" alt="Uncommon Grounds Logo" >
+      <img class=" text-center img-responsive center-block animated fadeInUp image-fit text-white jumbo-margin" src="img/ug-logo-chalk.png" alt="Uncommon Grounds Logo" >
 
       <img class="pull-left text-center img-responsive animated fadeInUp image-fit text-white" src="img/extras/swirl-2.png" alt="motif">
 <img  class=" pull-right text-center img-responsive animated fadeInUp image-fit text-white" src="img/extras/swirl-1.png" alt="green motif">
@@ -383,6 +385,40 @@
 
                               </div> <!--jumbotron-->
 
+                              <div class="container">
+                                <h1 class="text-center"> Images</h1>
+                                  <div class="row">
+                                    <div class="container">
+        <div id="slides">
+          <img src="img/atmosphere/atmosphere-1.jpg" alt="Atmosphere at Uncommon Grounds Coffeehouse">
+          <img src="img/atmosphere/atmosphere-2.jpg" alt="Atmosphere at Uncommon Grounds Coffeehouse">
+          <img src="img/atmosphere/atmosphere-3.jpg" alt="Atmosphere at Uncommon Grounds Coffeehouse">
+          <img src="img/atmosphere/atmosphere-4.jpg" alt="Atmosphere at Uncommon Grounds Coffeehouse">
+          <img src="img/atmosphere/atmosphere-5.jpg" alt="Atmosphere at Uncommon Grounds Coffeehouse">
+          <img src="img/atmosphere/atmosphere-6.jpg" alt="Atmosphere at Uncommon Grounds Coffeehouse">
+          <img src="img/atmosphere/atmosphere-7.jpg" alt="Atmosphere at Uncommon Grounds Coffeehouse">
+          <img src="img/atmosphere/atmosphere-8.jpg" alt="Atmosphere at Uncommon Grounds Coffeehouse">
+          <img src="img/atmosphere/atmosphere-9.jpg" alt="Atmosphere at Uncommon Grounds Coffeehouse">
+          <img src="img/atmosphere/atmosphere-10.jpg" alt="Atmosphere at Uncommon Grounds Coffeehouse">
+          <img src="img/atmosphere/atmosphere-11.jpg" alt="Atmosphere at Uncommon Grounds Coffeehouse">
+          <img src="img/atmosphere/atmosphere-12.jpg" alt="Atmosphere at Uncommon Grounds Coffeehouse">
+          <img src="img/atmosphere/atmosphere-13.jpg" alt="Atmosphere at Uncommon Grounds Coffeehouse">
+          <img src="img/atmosphere/atmosphere-14.jpg" alt="Atmosphere at Uncommon Grounds Coffeehouse">
+
+
+
+
+
+
+          <a href="#" class="slidesjs-previous slidesjs-navigation"><i class="icon-chevron-left icon-large"></i></a>
+          <a href="#" class="slidesjs-next slidesjs-navigation"><i class="icon-chevron-right icon-large"></i></a>
+        </div>
+      </div>
+
+                            </div>
+                              </div>
+
+
                               <!--FIND/ CONTACT-->
                               <div class="container">
                                 <h1 id="find" class="text-center">Find Us</h1>
@@ -413,18 +449,16 @@
                                   <div class="col-sm-0 col-md-1"></div>
                                   <div class="col-sm-8 col-md-6">
 
-                                    <!-- <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script> -->
-                                    <div style='overflow:hidden;height:330px;width:500px;'>
-                                      <div id='gmap_canvas' style='height:330px;width:500px;'></div><div><small><a href="http://www.embedgooglemaps.com">Generate your Google map here, quick and easy!									Click here									Visit our website!</a></small></div><div><small><a href="http://freedirectorysubmissionsites.com/">Find all web directories here!</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:17,center:new google.maps.LatLng(44.7542041,-108.7585828),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(44.7542041,-108.7585828)});infowindow = new google.maps.InfoWindow({content:'<strong>Uncommon Grounds</strong><br>135 E. Second St Powell, WY 82435<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
-
-                                    </div>
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2833.2959858351073!2d-108.75940086759236!3d44.75437799183623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xea2abf66f4f064d7!2sUncommon+Grounds+Coffeehouse!5e0!3m2!1sen!2sus!4v1473802308236" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                  </div>
                                   </div>
 
 
                                 </div><!--end container-->
 
 <!--Images-->
-                      
+
+
                                 <div  class="jumbotron jumbo-margin footer text-center">
                                   <div class="container">
 
@@ -444,6 +478,7 @@
                                     </table>
                                   </div>
                                 </div>
+
 
                               </body>
                               </html>
