@@ -25,7 +25,7 @@ background-size: cover;
   margin: 0;
 }
 
-.jumbotron .jumbo-margin{
+.jumbo-margin{
   margin-bottom: 50px;
   margin-top: 50px;
 }
@@ -66,6 +66,10 @@ background-size: cover;
 
 
 .text-white{
+  color:#f6f4f1;
+}
+
+.jumbotron .text-white{
   color:#f6f4f1;
 }
 
