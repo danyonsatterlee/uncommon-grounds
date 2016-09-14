@@ -16,15 +16,22 @@
   <!-- jQuery HAS TO GO BEFORE JAVA SCRIPT-->
   <script src="lib/jquery.min.js"></script>
   <script src="js/jquery.slides.min.js"></script>
-    <script src="js/jquery.slides.js"></script>
+  <script src="js/jquery.slides.js"></script>
   <!-- Bootstrap Java Script-->
   <script src="lib/bootstrap.min.js"></script>
-  <script src="js/scripts.js"></script>
 
   <!-- favicon-->
   <link rel="icon" href="img/coffee.ico">
 
-
+  <!-- <script src="js/scripts.js"></script> -->
+  <script>
+  $(function(){
+    $("#slides").slidesjs({
+      width: 940,
+      height: 528
+    });
+  });
+  </script>
 
 </head>
 
@@ -71,7 +78,7 @@
       <img class=" text-center img-responsive center-block animated fadeInUp image-fit text-white jumbo-margin" src="img/ug-logo-chalk.png" alt="Uncommon Grounds Logo" >
 
       <img class="pull-left text-center img-responsive animated fadeInUp image-fit text-white" src="img/extras/swirl-2.png" alt="motif">
-<img  class=" pull-right text-center img-responsive animated fadeInUp image-fit text-white" src="img/extras/swirl-1.png" alt="green motif">
+      <img  class=" pull-right text-center img-responsive animated fadeInUp image-fit text-white" src="img/extras/swirl-1.png" alt="green motif">
       <h2 class="text-center animated fadeInUp text-white"> Where We Love Coffee Almost as much as We Love You </h2>
 
 
@@ -140,345 +147,384 @@
                       <a href="http://www.boxcarcoffeeroasters.com/" target="_blank">
                         <img src="img/roasters/boxcar.png" alt="Boxcar Coffee Roaster" class="img-responsive image-fit center-block"></a>
                       </div>
-                    </div>   </div>   </div>
-                    <br><br>
+                    </div>
+                  </div>
+                </div>
+
+                <br><br>
 
 
-                    <!--MENU-->
-                    <div id="menu-bk" class="jumbotron vertical-center jumbo-margin">
-                      <div  class="container">
-                        <div  class="container">
-                          <div class="row">
-                            <div class="col-md-12 text-center text-white">
-                              <img class="pull-left text-center img-responsive animated fadeInUp image-fit text-white" src="img/extras/swirl-2.png" alt="">
-                        <img  class=" pull-right text-center img-responsive animated fadeInUp image-fit text-white" src="img/extras/swirl-1.png" alt="">
-                              <h1>The Goods</h1>
-                            </div>
+                <!--MENU-->
+                <div id="menu-bk" class="jumbotron vertical-center jumbo-margin">
+
+                    <div  class="container">
+
+                      <div class="row">
+                        <div class="col-md-12 text-center text-white">
+                          <img class="pull-left text-center img-responsive animated fadeInUp image-fit text-white" src="img/extras/swirl-2.png" alt="">
+                          <img  class=" pull-right text-center img-responsive animated fadeInUp image-fit text-white" src="img/extras/swirl-1.png" alt="">
+                          <h1>The Goods</h1>
+                        </div>
+
+                        <div class="row">
+
+                          <div class=" col-md-4 text-center text-white">
+
+                            <table class="menu-table">
+                              <tr>
+                                <th>Coffee</th>
+                                <th>12 oz</th>
+                                <th>16 oz</th>
+                                <th>20 oz</th>
+                              </tr>
+                              <tr>
+                                <td>Drip</td>
+                                <td>2.50</td>
+                                <td>2.75</td>
+                                <td>3.00</td>
+                              </tr>
+                              <tr>
+                                <td>Pour Over</td>
+                                <td>3.00</td>
+                                <td>3.25</td>
+                                <td>3.75</td>
+                              </tr>
+                              <tr>
+                                <td>Cold Brew</td>
+                                <td>3.00</td>
+                                <td>3.25</td>
+                                <td>3.75</td>
+                              </tr>
+                              <tr>
+                                <td>Latte</td>
+                                <td>3.00</td>
+                                <td>3.25</td>
+                                <td>3.75</td>
+                              </tr>
+                              <tr>
+                                <td>Americano</td>
+                                <td>2.75</td>
+                                <td>3.00</td>
+                                <td>3.25</td>
+                              </tr>
+                              <tr>
+                                <td>Mocha</td>
+                                <td>3.00</td>
+                                <td>3.25</td>
+                                <td>3.75</td>
+                              </tr>
+                            </table>
+                          </div>
+
+                          <div class="col-md-4 text-center text-white">
+
+                            <table class="menu-table">
+                              <tr>
+                                <th>Tea</th>
+                                <th>12 oz</th>
+                                <th>16 oz</th>
+                                <th>20 oz</th>
+                              </tr>
+                              <tr>
+                                <td>Hot Tea</td>
+                                <td>2.50</td>
+                                <td>2.75</td>
+                                <td>3.00</td>
+                              </tr>
+                              <tr>
+                                <td>Iced</td>
+                                <td>3.00</td>
+                                <td>3.25</td>
+                                <td>3.75</td>
+                              </tr>
+
+
+                              <tr>
+                                <td>Matcha</td>
+                                <td>3.00</td>
+                                <td>3.25</td>
+                                <td>3.75</td>
+                              </tr>
+
+                            </table>
+                          </div>
+
+                          <div class=" col-md-4 text-center text-white">
+
+                            <table class="menu-table">
+                              <tr>
+                                <th>Eat</th>
+                              </tr>
+                              <tr>
+                                <td>Bagel with Butter</td>
+                                <td>2.50</td>
+                                <td></td>
+                              </tr>
+                              <tr>
+                                <td>Bagel with Cream Cheese</td>
+                                <td>3.00</td>
+                                <td></td>
+                              </tr>
+                              <tr>
+                                <td>Greek Yogurt</td>
+                                <td>4.00</td>
+                                <td></td>
+                              </tr>
+                              <tr>
+                                <td>Breakfast Sandwhich</td>
+                                <td>4.00</td>
+                                <td></td>
+                              </tr>
+
+                              <tr>
+                                <td>Pancakes</td>
+                                <td>4.00</td>
+                                <td> Saturday Only</td>
+                              </tr>
+
+                            </table>
+                          </div>
+                        </div>
+
+                          <div class="container">
                             <div class="row">
-
-                              <div class=" col-md-4 text-center text-white">
-
-                                <table class="menu-table">
-                                  <tr>
-                                    <th>Coffee</th>
-                                    <th>12 oz</th>
-                                    <th>16 oz</th>
-                                    <th>20 oz</th>
-                                  </tr>
-                                  <tr>
-                                    <td>Drip</td>
-                                    <td>2.50</td>
-                                    <td>2.75</td>
-                                    <td>3.00</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Pour Over</td>
-                                    <td>3.00</td>
-                                    <td>3.25</td>
-                                    <td>3.75</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Cold Brew</td>
-                                    <td>3.00</td>
-                                    <td>3.25</td>
-                                    <td>3.75</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Latte</td>
-                                    <td>3.00</td>
-                                    <td>3.25</td>
-                                    <td>3.75</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Americano</td>
-                                    <td>2.75</td>
-                                    <td>3.00</td>
-                                    <td>3.25</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Mocha</td>
-                                    <td>3.00</td>
-                                    <td>3.25</td>
-                                    <td>3.75</td>
-                                  </tr>
-                                </table>
+                              <div class=" col-md-12">
+                                <img class="pull-right text-center img-responsive animated fadeInUp image-fit text-white" src="img/extras/swirl-2b.png" alt="">
+                                <img  class=" pull-left text-center img-responsive animated fadeInUp image-fit text-white" src="img/extras/swirl-1b.png" alt="">
                               </div>
-                              <div class="col-md-4 text-center text-white">
+                            </div>
+                          </div>
+
+
+                          <!--  <div class="row">
+                          <div class="col-md-12 text-center text-white">
+                          <table class="menu-table">
+                          <tr></tr>
+                          <tr>
+                          <td>Syrup .50 per flavor</td>
+                          <td></td>
+                          <td>Extra Shot 50 per shot</td>
+                          <td>.</td>
+                        </tr>
+                      </table>-->
+
+                    </div>
+                  </div>
+                </div>
 
 
 
 
-                                <table class="menu-table">
-                                  <tr>
-                                    <th>Tea</th>
-                                    <th>12 oz</th>
-                                    <th>16 oz</th>
-                                    <th>20 oz</th>
-                                  </tr>
-                                  <tr>
-                                    <td>Hot Tea</td>
-                                    <td>2.50</td>
-                                    <td>2.75</td>
-                                    <td>3.00</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Iced</td>
-                                    <td>3.00</td>
-                                    <td>3.25</td>
-                                    <td>3.75</td>
-                                  </tr>
+            <!--ABOUT-->
+            <div class="container">
+              <div class="row">
+                <h1 class="text-center">About</h1>
+                <div class="col-sm-10 col-md-8 ">
+                  <img class= "image-fit" src="img/iced-coffee.jpg" alt="iced coffee">
+                </div>
+                <div class="col-sm-2 col-md-4">
+
+                  <h3 id="about"> History</h3>
+                  <p class="justify">We have been a coffee shop since the dawn of time. Well not really since then, but for at least 12 years, and it has been under the current management for almost five years. These past five years we have been focusing on producing the most delicious coffee possible while also having the most fun possible.
+                  </p>
+
+                  <h3> Beliefs</h3>
+                  <p class="justify">We believe that joy should abound in all things, including drinking coffee. We are community and joy driven. While we believe that producing a wonderful cup of coffee is important we believe customers are even more important.  At Uncommon Grounds we are all family. One giant messy family that loves coffee and each other.
+                    <br><br>
+                    Welcome to the family, we can't wait to have a cup of joe with you and get to know you better.
+                  </p>
+
+                </div> </div>
+
+              </div><!--end container-->
+
+              <!--TEAM-->
+              <div id="team-bk"  class="jumbotron jumbo-margin">
+                <div class="container">
+                  <div  id="team" class="row">
+                    <div class="col-sm-1 col-md-2"></div>
+
+                    <div class="col-sm-10 col-md-8">
+                      <h1 class="text-center text-white">The Team</h1></div>
+
+                      <!--First Row of Thumbnails -->
+                      <div class="row">
+                        <div class="col-xs-6 col-md-3 thumbnail thumb-pat{">
+                          <img src="img/team/team-1.jpg" alt="Barista at Uncommon Grounds Coffee">
+                        </div>
+
+                        <div class="col-xs-6 col-md-3 thumbnail thumb-pat{">
+                          <img src="img/team/team-2.jpg" alt="Barista at Uncommon Grounds Coffee">
+
+                        </div>
+
+                        <div class="col-xs-6 col-md-3 thumbnail thumb-pat{">
+                          <img src="img/team/team-3.jpg" alt="Barista at Uncommon Grounds Coffee">
+                        </div>
+
+                        <div class="col-xs-6 col-md-3 thumbnail thumb-pat{">
+                          <img src="img/team/team-4.jpg" alt="Barista at Uncommon Grounds Coffee">
+                        </div>
+
+                      </div>
+                      <!--New Row of Thumbnails -->
+
+                      <div class="row">
+                        <div class="col-xs-6 col-md-4 thumbnail">
+
+                          <img src="img/team/team-6.jpg" alt="Barista at Uncommon Grounds Coffee">
+
+                        </div>
+                        <div class="col-xs-6 col-md-4 thumbnail ">
+
+                          <img src="img/team/team-7.jpg" alt="Barista at Uncommon Grounds Coffee">
+
+                        </div>
+                        <div class="col-xs-6 col-md-4 thumbnail">
+
+                          <img src="img/team/team-5.jpg" alt="Barista at Uncommon Grounds Coffee">
+
+                        </div>
 
 
-                                  <tr>
-                                    <td>Matcha</td>
-                                    <td>3.00</td>
-                                    <td>3.25</td>
-                                    <td>3.75</td>
-                                  </tr>
-
-                                </table>
-                              </div>
-
-                              <div class=" col-md-4 text-center text-white">
-
-                                <table class="menu-table">
-                                  <tr>
-                                    <th>Eat</th>
-                                  </tr>
-                                  <tr>
-                                    <td>Bagel with Butter</td>
-                                    <td>2.50</td>
-                                      <td></td>
-                                  </tr>
-                                  <tr>
-                                    <td>Bagel with Cream Cheese</td>
-                                    <td>3.00</td>
-                                      <td></td>
-                                  </tr>
-                                  <tr>
-                                    <td>Greek Yogurt</td>
-                                    <td>4.00</td>
-                                      <td></td>
-                                  </tr>
-                                  <tr>
-                                    <td>Breakfast Sandwhich</td>
-                                    <td>4.00</td>
-                                      <td></td>
-                                  </tr>
-
-                                  <tr>
-                                    <td>Pancakes</td>
-                                    <td>4.00</td>
-                                    <td> Saturday Only</td>
-                                  </tr>
-
-                                </table>
-                                  </div>
-                                <div class="container">
-                                <div class="row">
-                                    <div class=" col-md-12">
-                                  <img class="pull-right text-center img-responsive animated fadeInUp image-fit text-white" src="img/extras/swirl-2b.png" alt="">
-                            <img  class=" pull-left text-center img-responsive animated fadeInUp image-fit text-white" src="img/extras/swirl-1b.png" alt="">
-                                </div>
-                                </div>
-                              </div>
+                      </div>
 
 
-                            <!--  <div class="row">
-                                <div class="col-md-12 text-center text-white">
-                                  <table class="menu-table">
-                                    <tr></tr>
-                                    <tr>
-                                      <td>Syrup .50 per flavor</td>
-                                      <td></td>
-                                      <td>Extra Shot 50 per shot</td>
-                                      <td>.</td>
-                                    </tr>
-                                  </table>-->
-                               <!--end container-->
-                              </div> <!--jumbotron-->
-                          </div></div></div></div>
+                    </div>
+                    <div class="col-sm-1 col-md-2"></div>
+                  </div> <!--end container-->
 
-
-
-                            <!--ABOUT-->
-                            <div class="container">
-                              <div class="row">
-                                <h1 class="text-center">About</h1>
-                                <div class="col-sm-10 col-md-8 ">
-                                  <img class= "image-fit" src="img/iced-coffee.jpg" alt="iced coffee">
-                                </div>
-                                <div class="col-sm-2 col-md-4">
-
-                                  <h3 id="about"> History</h3>
-                                  <p class="justify">We have been a coffee shop since the dawn of time. Well not really since then, but for at least 12 years, and it has been under the current management for almost five years. These past five years we have been focusing on producing the most delicious coffee possible while also having the most fun possible.
-                                  </p>
-
-                                  <h3> Beliefs</h3>
-                                  <p class="justify">We believe that joy should abound in all things, including drinking coffee. We are community and joy driven. While we believe that producing a wonderful cup of coffee is important we believe customers are even more important.  At Uncommon Grounds we are all family. One giant messy family that loves coffee and each other.
-                                    <br><br>
-                                    Welcome to the family, we can't wait to have a cup of joe with you and get to know you better.
-                                  </p>
-
-                                </div> </div>
-
-                              </div><!--end container-->
-
-                              <!--TEAM-->
-                              <div id="team-bk"  class="jumbotron jumbo-margin">
-                                <div class="container">
-                                  <div  id="team" class="row">
-                                    <div class="col-sm-1 col-md-2">
-
-                                    </div>
-                                    <div class="col-sm-10 col-md-8">
-                                      <h1 class="text-center text-white">The Team</h1>
-
-                                      <!--First Row of Thumbnails -->
-                                      <div class="row">
-                                        <div class="col-xs-6 col-md-3 thumbnail thumb-pat{">
-                                          <img src="img/team/team-1.jpg" alt="Barista at Uncommon Grounds Coffee">
-                                        </div>
-
-                                        <div class="col-xs-6 col-md-3 thumbnail thumb-pat{">
-                                          <img src="img/team/team-2.jpg" alt="Barista at Uncommon Grounds Coffee">
-
-                                        </div>
-
-                                        <div class="col-xs-6 col-md-3 thumbnail thumb-pat{">
-                                          <img src="img/team/team-3.jpg" alt="Barista at Uncommon Grounds Coffee">
-                                        </div>
-
-                                        <div class="col-xs-6 col-md-3 thumbnail thumb-pat{">
-                                          <img src="img/team/team-4.jpg" alt="Barista at Uncommon Grounds Coffee">
-                                        </div>
-
-                                      </div>
-                                      <!--New Row of Thumbnails -->
-
-                                      <div class="row">
-                                        <div class="col-xs-6 col-md-4 thumbnail">
-
-                                          <img src="img/team/team-6.jpg" alt="Barista at Uncommon Grounds Coffee">
-
-                                        </div>
-                                        <div class="col-xs-6 col-md-4 thumbnail ">
-
-                                          <img src="img/team/team-7.jpg" alt="Barista at Uncommon Grounds Coffee">
-
-                                        </div>
-                                        <div class="col-xs-6 col-md-4 thumbnail">
-
-                                          <img src="img/team/team-5.jpg" alt="Barista at Uncommon Grounds Coffee">
-
-                                        </div>
-
-
-                                      </div>
-
-
-                                    </div>
-                                    <div class="col-sm-1 col-md-2"></div>
-                                  </div> <!--end container-->
-
-                                </div>
-
-                              </div> <!--jumbotron-->
-
-                              <div class="container">
-                                <h1 class="text-center"> Images</h1>
-                                  <div class="row">
-                                    <div class="container">
-        <div id="slides">
-          <img src="img/atmosphere/atmosphere-1.jpg" alt="Atmosphere at Uncommon Grounds Coffeehouse">
-          <img src="img/atmosphere/atmosphere-2.jpg" alt="Atmosphere at Uncommon Grounds Coffeehouse">
-          <img src="img/atmosphere/atmosphere-3.jpg" alt="Atmosphere at Uncommon Grounds Coffeehouse">
-          <img src="img/atmosphere/atmosphere-4.jpg" alt="Atmosphere at Uncommon Grounds Coffeehouse">
-          <img src="img/atmosphere/atmosphere-5.jpg" alt="Atmosphere at Uncommon Grounds Coffeehouse">
-          <img src="img/atmosphere/atmosphere-6.jpg" alt="Atmosphere at Uncommon Grounds Coffeehouse">
-          <img src="img/atmosphere/atmosphere-7.jpg" alt="Atmosphere at Uncommon Grounds Coffeehouse">
-          <img src="img/atmosphere/atmosphere-8.jpg" alt="Atmosphere at Uncommon Grounds Coffeehouse">
-          <img src="img/atmosphere/atmosphere-9.jpg" alt="Atmosphere at Uncommon Grounds Coffeehouse">
-          <img src="img/atmosphere/atmosphere-10.jpg" alt="Atmosphere at Uncommon Grounds Coffeehouse">
-          <img src="img/atmosphere/atmosphere-11.jpg" alt="Atmosphere at Uncommon Grounds Coffeehouse">
-          <img src="img/atmosphere/atmosphere-12.jpg" alt="Atmosphere at Uncommon Grounds Coffeehouse">
-          <img src="img/atmosphere/atmosphere-13.jpg" alt="Atmosphere at Uncommon Grounds Coffeehouse">
-          <img src="img/atmosphere/atmosphere-14.jpg" alt="Atmosphere at Uncommon Grounds Coffeehouse">
+                </div>
 
 
 
 
 
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                  <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                  </ol>
 
-          <a href="#" class="slidesjs-previous slidesjs-navigation"><i class="icon-chevron-left icon-large"></i></a>
-          <a href="#" class="slidesjs-next slidesjs-navigation"><i class="icon-chevron-right icon-large"></i></a>
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                      <img src="img/atmosphere/atmosphere-1.jpg" alt="...">
+                      <div class="carousel-caption">
+                        ...
+                      </div>
+                    </div>
+                    <div class="item">
+                      <img src="img/atmosphere/atmosphere-2.jpg" alt="...">
+                      <div class="carousel-caption">
+                        ...
+                      </div>
+                    </div>
+                    ...
+                  </div>
+
+                  <!-- Controls -->
+                  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                    <i class="fa fa-angle-left fa-4x" aria-hidden="true"></i>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                  <i class="fa fa-angle-right fa-4x" aria-hidden="true"></i>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+
+              <!-- <div class="container">
+              <h1 class="text-center"> Images</h1>
+              <div class="row">
+              <div class="container">
+              <div id="slides">
+              <img src="img/atmosphere/atmosphere-1.jpg" alt="Atmosphere at Uncommon Grounds Coffeehouse">
+              <img src="img/atmosphere/atmosphere-2.jpg" alt="Atmosphere at Uncommon Grounds Coffeehouse">
+              <img src="img/atmosphere/atmosphere-3.jpg" alt="Atmosphere at Uncommon Grounds Coffeehouse">
+              <img src="img/atmosphere/atmosphere-4.jpg" alt="Atmosphere at Uncommon Grounds Coffeehouse">
+              <img src="img/atmosphere/atmosphere-5.jpg" alt="Atmosphere at Uncommon Grounds Coffeehouse">
+              <img src="img/atmosphere/atmosphere-6.jpg" alt="Atmosphere at Uncommon Grounds Coffeehouse">
+              <img src="img/atmosphere/atmosphere-7.jpg" alt="Atmosphere at Uncommon Grounds Coffeehouse">
+              <img src="img/atmosphere/atmosphere-8.jpg" alt="Atmosphere at Uncommon Grounds Coffeehouse">
+              <img src="img/atmosphere/atmosphere-9.jpg" alt="Atmosphere at Uncommon Grounds Coffeehouse">
+              <img src="img/atmosphere/atmosphere-10.jpg" alt="Atmosphere at Uncommon Grounds Coffeehouse">
+              <img src="img/atmosphere/atmosphere-11.jpg" alt="Atmosphere at Uncommon Grounds Coffeehouse">
+              <img src="img/atmosphere/atmosphere-12.jpg" alt="Atmosphere at Uncommon Grounds Coffeehouse">
+              <img src="img/atmosphere/atmosphere-13.jpg" alt="Atmosphere at Uncommon Grounds Coffeehouse">
+              <img src="img/atmosphere/atmosphere-14.jpg" alt="Atmosphere at Uncommon Grounds Coffeehouse">
+
+              <a href="#" class="slidesjs-previous slidesjs-navigation"><i class="icon-chevron-left icon-large"></i></a>
+              <a href="#" class="slidesjs-next slidesjs-navigation"><i class="icon-chevron-right icon-large"></i></a>
+            </div>
+          </div>
+
+        </div>
+      </div> -->
+
+
+      <!--FIND/ CONTACT-->
+      <div class="container">
+        <h1 id="find" class="text-center">Find Us</h1>
+        <div class="row">
+
+          <div class="col-sm-1 col-md-2"></div>
+
+
+          <div class="col-sm-3 col-md-3">
+
+            <h3>Hours:</h3>
+            <p>
+              Monday- Friday 6:30am - 6pm <br>
+
+              Saturday 7am - 5pm <br>
+
+              Sunday 8am - 4pm
+            </p>
+            <h3>Phone</h3>
+            <p>307.754.0717 </p>
+            <h3>E-Mail</h3>
+            <p>uncommon.coffee@gmail.com</p>
+            <h3>Social</h3>
+            <a href="https://www.instagram.com/uncommongrounds/" target="_blank"><i class="fa fa-instagram fa-2x social" aria-hidden="true"></i></a>
+
+            <a href="https://www.facebook.com/Uncommon-Grounds-157234847651645/?ref=hl" target="_blank"><i class="fa fa-facebook fa-2x social" aria-hidden="true"></i></a>
+          </div>
+          <div class="col-sm-0 col-md-1"></div>
+          <div class="col-sm-8 col-md-6">
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2833.2959858351073!2d-108.75940086759236!3d44.75437799183623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xea2abf66f4f064d7!2sUncommon+Grounds+Coffeehouse!5e0!3m2!1sen!2sus!4v1473802308236" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+        </div>
+
+
+      </div><!--end container-->
+
+      <!--Images-->
+
+
+      <div  class="jumbotron jumbo-margin footer text-center">
+        <div class="container">
+
+          <table>
+            <tr>
+              <td>copyright © 2016</td>
+              <td>
+                <a href="https://www.instagram.com/uncommongrounds/" target="_blank"><i class="fa fa-instagram fa-2x social-footer" aria-hidden="true"></i>
+                </a>
+                <a href="https://www.facebook.com/Uncommon-Grounds-157234847651645/?ref=hl" target="_blank"><i class="fa fa-facebook fa-2x social-footer" aria-hidden="true"></i>
+                </a>
+              </td>
+              <td>307.754.0717</td>
+              <td>uncommon.coffee@gmail.com</td>
+              <td>135 E. Second St Powell, WY 82435</td>
+            </tr>
+          </table>
         </div>
       </div>
 
-                            </div>
-                              </div>
 
-
-                              <!--FIND/ CONTACT-->
-                              <div class="container">
-                                <h1 id="find" class="text-center">Find Us</h1>
-                                <div class="row">
-
-                                  <div class="col-sm-1 col-md-2"></div>
-
-
-                                  <div class="col-sm-3 col-md-3">
-
-                                    <h3>Hours:</h3>
-                                    <p>
-                                      Monday- Friday 6:30am - 6pm <br>
-
-                                      Saturday 7am - 5pm <br>
-
-                                      Sunday 8am - 4pm
-                                    </p>
-                                    <h3>Phone</h3>
-                                    <p>307.754.0717 </p>
-                                    <h3>E-Mail</h3>
-                                    <p>uncommon.coffee@gmail.com</p>
-                                    <h3>Social</h3>
-                                    <a href="https://www.instagram.com/uncommongrounds/" target="_blank"><i class="fa fa-instagram fa-2x social" aria-hidden="true"></i></a>
-
-                                    <a href="https://www.facebook.com/Uncommon-Grounds-157234847651645/?ref=hl" target="_blank"><i class="fa fa-facebook fa-2x social" aria-hidden="true"></i></a>
-                                  </div>
-                                  <div class="col-sm-0 col-md-1"></div>
-                                  <div class="col-sm-8 col-md-6">
-
-                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2833.2959858351073!2d-108.75940086759236!3d44.75437799183623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xea2abf66f4f064d7!2sUncommon+Grounds+Coffeehouse!5e0!3m2!1sen!2sus!4v1473802308236" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-                                  </div>
-                                  </div>
-
-
-                                </div><!--end container-->
-
-<!--Images-->
-
-
-                                <div  class="jumbotron jumbo-margin footer text-center">
-                                  <div class="container">
-
-                                    <table>
-                                      <tr>
-                                        <td>copyright © 2016</td>
-                                        <td>
-                                          <a href="https://www.instagram.com/uncommongrounds/" target="_blank"><i class="fa fa-instagram fa-2x social-footer" aria-hidden="true"></i>
-                                          </a>
-                                          <a href="https://www.facebook.com/Uncommon-Grounds-157234847651645/?ref=hl" target="_blank"><i class="fa fa-facebook fa-2x social-footer" aria-hidden="true"></i>
-                                          </a>
-                                        </td>
-                                        <td>307.754.0717</td>
-                                        <td>uncommon.coffee@gmail.com</td>
-                                        <td>135 E. Second St Powell, WY 82435</td>
-                                      </tr>
-                                    </table>
-                                  </div>
-                                </div>
-
-
-                              </body>
-                              </html>
+    </body>
+    </html>

@@ -274,3 +274,13 @@ body{ background-color: #f6f4f1;}
         width: 1170px
       }
 }
+
+.carousel-control .fa-angle-left,
+.carousel-control .fa-angle-right {
+
+position: absolute;
+top: 50%;
+margin-top: -10px;
+z-index: 5;
+display: inline-block;
+}
