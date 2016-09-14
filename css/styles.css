@@ -21,6 +21,13 @@ width:100%;
 background-size: cover;
 
 }
+
+#find{
+  background-image: url("../img/blackboard-bk.jpg");
+  position: relative;
+  width:100%;
+  background-size: cover;
+}
 .margin-zero{
   margin: 0;
 }
@@ -274,7 +281,9 @@ body{ background-color: #f6f4f1;}
         width: 1170px
       }
 }
-
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
 .carousel-control .fa-angle-left,
 .carousel-control .fa-angle-right {
 
@@ -283,4 +292,9 @@ top: 50%;
 margin-top: -10px;
 z-index: 5;
 display: inline-block;
+color:black;
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
 }

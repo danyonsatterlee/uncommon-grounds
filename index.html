@@ -7,6 +7,7 @@
   <title>Uncommon Grounds</title>
   <!-- Bootstrap Style Sheet -->
   <link rel="stylesheet" href="lib/bootstrap-yeti.min.css">
+
   <!-- Animate CSS -->
   <link rel="stylesheet" href="lib/animate.min.css">
 
@@ -15,27 +16,20 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
   <!-- jQuery HAS TO GO BEFORE JAVA SCRIPT-->
   <script src="lib/jquery.min.js"></script>
-  <script src="js/jquery.slides.min.js"></script>
-  <script src="js/jquery.slides.js"></script>
   <!-- Bootstrap Java Script-->
   <script src="lib/bootstrap.min.js"></script>
 
   <!-- favicon-->
   <link rel="icon" href="img/coffee.ico">
 
-  <!-- <script src="js/scripts.js"></script> -->
-  <script>
-  $(function(){
-    $("#slides").slidesjs({
-      width: 940,
-      height: 528
-    });
-  });
-  </script>
+
 
 </head>
 
 <body>
+
+
+
   <!-- Nav Bar-->
   <nav class="navbar navbar-default navbar-fixed-top margin-zero nav-custom">
     <div class="container-fluid">
@@ -51,21 +45,20 @@
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
+
+
+
+
       <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
 
 
-        <ul class="nav navbar-nav navbar-right  ">
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ABOUT <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="#roasters">ROASTERS</a></li>
-              <li><a href="#team">TEAM</a></li>
-              <li><a href="#about">ABOUT</a></li>
-              <li role="separator" class="divider"></li>
-            </ul>
-          </li>
-          <li><a href="#menu-bk">THE GOODS</a></li>
+        <ul class="nav navbar-nav navbar-right">
 
+          <li><a href="#roasters">ROASTERS</a></li>
+          <li><a href="#menu-bk">THE GOODS</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#team">TEAM</a></li>
+          <li><a href="#images">ATMOSPHERE</a></li>
           <li><a href="#find">FIND US</a></li>
           <li><a href="#"></a></li>
         </ul>
@@ -87,14 +80,14 @@
 
 
   <!--Coffee Roast-->
-  <div class="container">
+  <div id="roasters" class="container jumbotron-margin">
     <div class="row">
 
       <div class=" col-sm-1 col-md-2">
       </div>
 
       <div class="col-sm-10 col-md-8 text-center">
-        <h1  id="roasters" >Roasters</h1>
+        <h1>Roasters</h1>
 
         <br><br>
         <a href=" http://caravancoffee.com/"><img src="img/roasters/caravan.png" alt="Caravan Coffee Roasters"></a>
@@ -316,7 +309,7 @@
 
 
             <!--ABOUT-->
-            <div class="container">
+            <div id="about" class="container">
               <div class="row">
                 <h1 class="text-center">About</h1>
                 <div class="col-sm-10 col-md-8 ">
@@ -324,7 +317,7 @@
                 </div>
                 <div class="col-sm-2 col-md-4">
 
-                  <h3 id="about"> History</h3>
+                  <h3 > History</h3>
                   <p class="justify">We have been a coffee shop since the dawn of time. Well not really since then, but for at least 12 years, and it has been under the current management for almost five years. These past five years we have been focusing on producing the most delicious coffee possible while also having the most fun possible.
                   </p>
 
@@ -399,7 +392,13 @@
 
 
 
-
+  <div class="container">
+    <div id="images"  class="row">
+      <div class="col-sm-12 col-md-12">
+    <h1 class="text-center">Atmosphere</h1>
+        </div>
+    <div class="row">
+      <div class="col-sm-12 col-md-12">
                 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                   <!-- Indicators -->
                   <ol class="carousel-indicators">
@@ -425,6 +424,7 @@
                     ...
                   </div>
 
+
                   <!-- Controls -->
                   <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
                     <i class="fa fa-angle-left fa-4x" aria-hidden="true"></i>
@@ -435,77 +435,62 @@
                     <span class="sr-only">Next</span>
                   </a>
                 </div>
+              </div>
+    </div>
+  </div>
+</div>
 
-              <!-- <div class="container">
-              <h1 class="text-center"> Images</h1>
-              <div class="row">
-              <div class="container">
-              <div id="slides">
-              <img src="img/atmosphere/atmosphere-1.jpg" alt="Atmosphere at Uncommon Grounds Coffeehouse">
-              <img src="img/atmosphere/atmosphere-2.jpg" alt="Atmosphere at Uncommon Grounds Coffeehouse">
-              <img src="img/atmosphere/atmosphere-3.jpg" alt="Atmosphere at Uncommon Grounds Coffeehouse">
-              <img src="img/atmosphere/atmosphere-4.jpg" alt="Atmosphere at Uncommon Grounds Coffeehouse">
-              <img src="img/atmosphere/atmosphere-5.jpg" alt="Atmosphere at Uncommon Grounds Coffeehouse">
-              <img src="img/atmosphere/atmosphere-6.jpg" alt="Atmosphere at Uncommon Grounds Coffeehouse">
-              <img src="img/atmosphere/atmosphere-7.jpg" alt="Atmosphere at Uncommon Grounds Coffeehouse">
-              <img src="img/atmosphere/atmosphere-8.jpg" alt="Atmosphere at Uncommon Grounds Coffeehouse">
-              <img src="img/atmosphere/atmosphere-9.jpg" alt="Atmosphere at Uncommon Grounds Coffeehouse">
-              <img src="img/atmosphere/atmosphere-10.jpg" alt="Atmosphere at Uncommon Grounds Coffeehouse">
-              <img src="img/atmosphere/atmosphere-11.jpg" alt="Atmosphere at Uncommon Grounds Coffeehouse">
-              <img src="img/atmosphere/atmosphere-12.jpg" alt="Atmosphere at Uncommon Grounds Coffeehouse">
-              <img src="img/atmosphere/atmosphere-13.jpg" alt="Atmosphere at Uncommon Grounds Coffeehouse">
-              <img src="img/atmosphere/atmosphere-14.jpg" alt="Atmosphere at Uncommon Grounds Coffeehouse">
 
-              <a href="#" class="slidesjs-previous slidesjs-navigation"><i class="icon-chevron-left icon-large"></i></a>
-              <a href="#" class="slidesjs-next slidesjs-navigation"><i class="icon-chevron-right icon-large"></i></a>
-            </div>
-          </div>
 
-        </div>
-      </div> -->
 
 
       <!--FIND/ CONTACT-->
-      <div class="container">
-        <h1 id="find" class="text-center">Find Us</h1>
-        <div class="row">
-
-          <div class="col-sm-1 col-md-2"></div>
 
 
-          <div class="col-sm-3 col-md-3">
 
-            <h3>Hours:</h3>
-            <p>
-              Monday- Friday 6:30am - 6pm <br>
+      <div id="find" class="jumbotron jumbo-margin text-white">
+        <div class="container">
+          <h1  class="text-center">Find Us</h1>
+          <div class="row">
 
-              Saturday 7am - 5pm <br>
+            <div class="col-sm-1 col-md-2"></div>
 
-              Sunday 8am - 4pm
-            </p>
-            <h3>Phone</h3>
-            <p>307.754.0717 </p>
-            <h3>E-Mail</h3>
-            <p>uncommon.coffee@gmail.com</p>
-            <h3>Social</h3>
-            <a href="https://www.instagram.com/uncommongrounds/" target="_blank"><i class="fa fa-instagram fa-2x social" aria-hidden="true"></i></a>
 
-            <a href="https://www.facebook.com/Uncommon-Grounds-157234847651645/?ref=hl" target="_blank"><i class="fa fa-facebook fa-2x social" aria-hidden="true"></i></a>
-          </div>
-          <div class="col-sm-0 col-md-1"></div>
-          <div class="col-sm-8 col-md-6">
+            <div class="col-sm-3 col-md-3">
 
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2833.2959858351073!2d-108.75940086759236!3d44.75437799183623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xea2abf66f4f064d7!2sUncommon+Grounds+Coffeehouse!5e0!3m2!1sen!2sus!4v1473802308236" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-          </div>
+              <h3>Hours:</h3>
+              <p>
+                Monday- Friday 6:30am - 6pm <br>
+
+                Saturday 7am - 5pm <br>
+
+                Sunday 8am - 4pm
+              </p>
+              <h3>Phone</h3>
+              <p>307.754.0717 </p>
+              <h3>E-Mail</h3>
+              <p>uncommon.coffee@gmail.com</p>
+              <h3>Social</h3>
+              <a href="https://www.instagram.com/uncommongrounds/" target="_blank"><i class="fa fa-instagram fa-2x social" aria-hidden="true"></i></a>
+
+              <a href="https://www.facebook.com/Uncommon-Grounds-157234847651645/?ref=hl" target="_blank"><i class="fa fa-facebook fa-2x social" aria-hidden="true"></i></a>
+            </div>
+            <div class="col-sm-0 col-md-1"></div>
+            <div class="col-sm-8 col-md-6">
+
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2833.2959858351073!2d-108.75940086759236!3d44.75437799183623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xea2abf66f4f064d7!2sUncommon+Grounds+Coffeehouse!5e0!3m2!1sen!2sus!4v1473802308236" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+
+        </div>
+      </div>
         </div>
 
 
-      </div><!--end container-->
-
-      <!--Images-->
 
 
-      <div  class="jumbotron jumbo-margin footer text-center">
+
+
+      <div  class="jumbotron footer text-center">
         <div class="container">
 
           <table>
